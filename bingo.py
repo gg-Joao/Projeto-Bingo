@@ -44,7 +44,6 @@ def marcar_cartela(cartela, dezena):
                 cartela['marcacoes'][i][j] = True
 
 def jogar_bingo():
-    print("Bem-vindo ao Simulador de Bingo!")
     modo = input("Escolha o modo de jogo ('rápido' ou 'demorado'): ").strip().lower()
     while modo not in ('rápido', 'demorado'):
         modo = input("Opção inválida. Escolha 'rápido' ou 'demorado': ").strip().lower()
