@@ -72,7 +72,7 @@ def jogar_bingo():
             if verificar_vitoria(cartela) and cartela['jogador'] not in ganhadores:
                 ganhadores.append(cartela['jogador'])
     
-    print(f"\nBingo! Os ganhadores são: {', '.join(ganhadores)}")
+    print(f"\nBingo! O(s) ganhador(es) é/são: {', '.join(ganhadores)}")
 
 if __name__ == "__main__":
     jogar_bingo()
